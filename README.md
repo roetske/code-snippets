@@ -6,7 +6,7 @@ First tries i got only zeroes. <br>
 wifi sta => WiFi.STA.begin(); so important.<br>
 Code iom2021 while loop sta started also nice.<br>
 Code and docs are a big mystery at times. You depend on snippets and puzzle from your snippet.<br>
-# two way com onreive compile error with v3 esp now on arduino ide
+# 1.2 two way com onreive compile error with v3 esp now on arduino ide
 Onreceive compiler error when using snippets in v3 esp lib <br>
 In the older compiler it was formulated <br>
 void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) <br>
