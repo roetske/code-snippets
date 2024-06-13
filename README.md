@@ -14,12 +14,12 @@ void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) <br>
 In the revised v3 code, it is replace line with this code <br>
 void OnDataRecv(const esp_now_recv_info_t *info, const uint8_t *data, int len) <br>
 
-Made a test with 2 esp each 
+Made a test with 2 esp each <br>
 -2 inputs pushbuttons <br>
 -2 outputs led red. <br>
 -1 blue led for visualisation com between 2 esp <br>
     -blinkled when communication. (the blink is controlled by each other to see com) <br>
 -watchdog <br>
--no com all outputs are off.
+-no com all outputs are off.<br>
 
 
