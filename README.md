@@ -5,8 +5,8 @@ First tries getting macadress i got only zeroes. <br>
 wifi sta => WiFi.STA.begin(); so important.<br>
 Code iom2021 while loop sta started also nice.<br>
 Code and docs are a big mystery at times. You depend on snippets and puzzle from your snippet.<br>
+versions of library change then you get into trouble, should be standard in snippets info versions libraries used.<br>
 # 1.2 two way com OnDataRecv compile error with v3 esp now on arduino ide
-
 Onreceive compiler error when using snippets in v3 esp lib <br>
 In the older compiler it was formulated <br>
 void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) <br>
@@ -20,12 +20,13 @@ Made a test with 2 esp each having: <br>
 -1 blue led for visualisation com between 2 esp <br>
     -blinkled when communication. (the blink is controlled by each other to see com) <br>
 -watchdog <br>
--no com all outputs are off.<br>
 -important data exchange struct must be the same for both esp32 <br>
 working principle programs <br>
 -------------------------------------<br>
 simple test when a pushbutton is pressed on one esp32 a led must go on the other esp32 and vice versa. <br>
-ideal test io mirror wireless.
-the blinking blue led is off when no communication between the 2 esp32.
+ideal test io mirror wireless.<br>
+the blinking blue led is off when no communication between the 2 esp32. all outputs are off when communication is at fault <br>
+blinking bleu led on both when there is com.<br>
+refresh rate is 1sec.
 
 
