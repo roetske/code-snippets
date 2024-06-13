@@ -7,6 +7,7 @@ wifi sta => WiFi.STA.begin(); so important.<br>
 Code iom2021 while loop sta started also nice.<br>
 Code and docs are a big mystery at times. You depend on snippets and puzzle from your snippet.<br>
 # 1.2 two way com OnDataRecv compile error with v3 esp now on arduino ide
+Get mac address from both esp. Fill then for each ino the right mac address and go. <br>
 Onreceive compiler error when using snippets in v3 esp lib <br>
 In the older compiler it was formulated <br>
 void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) <br>
