@@ -22,5 +22,10 @@ Made a test with 2 esp each having: <br>
 -watchdog <br>
 -no com all outputs are off.<br>
 -important data exchange struct must be the same for both esp32 <br>
+working principle programs <br>
+-------------------------------<br>
+simple test when a pushbutton is pressed on one esp32 a led must go on the other esp32 and vice versa. <br>
+ideal test io mirror wireless.
+the blinking blue led is off when no communication between the 2 esp32.
 
 
