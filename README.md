@@ -10,7 +10,7 @@ Code and docs are a big mystery at times. You depend on snippets and puzzle from
 Onreceive compiler error when using snippets in v3 esp lib <br>
 In the older compiler it was formulated <br>
 void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) <br>
-In the revised v3 code, it is replace line with this code <br>
+In the revised v3 code, replace line with this code <br>
 void OnDataRecv(const esp_now_recv_info_t *info, const uint8_t *data, int len) <br>
 # 1.3 ino code twoway com esp_now 
 Get mac address from both esp. Fill then for each ino the right mac address and go. <br>
