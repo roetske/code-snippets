@@ -1,5 +1,4 @@
-# code-snippets
-interesting code snippets 
+# esp_now twoway com direct between 2 esp32
 # 1.0 For esp now getting macadres of your board needed for peer to peer <br>
 # 1.1 examples rui santos and iom2021 getting macadress/
 First tries getting macadress i got only zeroes. <br>
