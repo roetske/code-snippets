@@ -196,7 +196,7 @@ void loop()
     getlocalreading();
      // Send message via ESP-NOW
     esp_err_t result = esp_now_send(MAC_MODULE1, (uint8_t *) &localreadings, sizeof(localreadings));
-    // if (result == ESP_OK) //dit werkte niet gaf ok bij spanning af
+    // if (result == ESP_OK) //this did not work gave ok when other module was powered off
     //  {bsucces = true;
     //  }
     // else 
@@ -264,6 +264,9 @@ void getlocalreading()
     Serial.println(localreadings.output2);
 
   }
+
+//my standard snippet for blinking led esp not stuck
+//not used here :) use led blinking for com active 
 void heartbeatcheck()
 { //locally control visual heartbeat
   if (heartbeat > 500)
